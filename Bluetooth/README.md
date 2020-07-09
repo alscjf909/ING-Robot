@@ -27,30 +27,109 @@ http://www.micro4you.com/files/ElecFreaks/Bluetooth%20HC-06.pdf
 　  
 ![kaka01](img/kakao1.jpg)  
 　 
-<Arduino Bluetooth Controller>  
+### <Arduino Bluetooth Controller>  
 　  
 ![kaka02](img/kakao2.jpg)  
 　  
-<1번 터치하여 스마트폰 주변 블루투스 장치 검색>  
+### <1번 터치하여 스마트폰 주변 블루투스 장치 검색>  
 　  
 ![kaka03](img/kakao3.jpg)  
 　  
-<발견한 블루투스 장치를 찾아 클릭>  
+### <발견한 블루투스 장치를 찾아 클릭>  
 　  
 ![kaka04](img/kakao4.jpg)  
 　  
-<초기 Pin번호는 1234 또는 0000으로 구성 되져있다.>
+### <초기 Pin번호는 1234 또는 0000으로 구성 되져있다.>
   
 ![kaka05](img/kakao5.jpg)  
 　  
-<Terminal Mode를 선택하여 스마트폰과 블루투스 모듈간 문자 송수신을 하자.>  
+### <Terminal Mode를 선택하여 스마트폰과 블루투스 모듈간 문자 송수신을 하자.>  
 　  
 ![kaka06](img/kakao6.jpg)   
 　  
-<어플에서 문자를 입력하면 시리얼 모니터에 출력되고 시리얼 모니터에 입력하면 어플에 출력된다.>  
+### <어플에서 문자를 입력하면 시리얼 모니터에 출력되고 시리얼 모니터에 입력하면 어플에 출력된다.>  
 　  
 이렇게 어플다운까지 끝나고 실험으로 들어가겠다.  
 
+실험내용   
+  
+***
+1. Arduino와 블루투스 모듈간 문자를 통신해보자.  
+2. Arduino를 통해 LED키고 끄기  
+　  
+준비물  
+***  
+아두이노 보드, 브레드 보드, LED, 저항 220옴, 점퍼선, 블루투스 모듈  
+1. Arduino와 블루투스 모듈간 문자를 통신해보자
+![blue_tooth](img/blue_tooth_circuit.PNG)    
+2.Arduino를 통해 LED키고 끄기
+![blue_tooth](img/blue_tooth_circuit2.PNG)  
+　  
+소스 코드
+***  
+1. Arduino와 블루투스 모듈간 문자를 통신해보자  
+       
+       
+    #include <SoftwareSerial.h>
+    
+    #define BT_RXD 8
+    #define BT_TXD 7
+    SoftwareSerial bluetooth(BT_RXD, BT_TXD);
+     
+    void setup(){
+      Serial.begin(9600);
+      bluetooth.begin(9600);
+    }
+     
+    void loop(){
+      if (bluetooth.available()) {
+        Serial.write(bluetooth.read());
+      }
+      if (Serial.available()) {
+        bluetooth.write(Serial.read());
+      }
+    }
 
-![blue_tooth](img/blue_tooth_circuit.PNG)  
-　
+
+2.Arduino를 통해 LED키고 끄기  
+
+
+    #include <SoftwareSerial.h>
+    #define RX 8
+    #define TX 7
+    SoftwareSerial bluetooth(RX, TX);
+    
+    void setup() {
+      Serial.begin(9600);
+      bluetooth.begin(9600);
+      pinMode(3, OUTPUT);
+      pinMode(5, OUTPUT);
+    
+    }
+    
+    void loop() {
+      char val = bluetooth.read();
+      if(bluetooth.available()){
+        Serial.write(bluetooth.read());
+      }
+      if(val == 'a')
+      {
+        digitalWrite(3,HIGH);
+      }
+    
+      if(val == 'b')
+      {
+        digitalWrite(5,HIGH); 
+        Serial.print("a");
+      }
+      if(val == 'c')
+      {
+        digitalWrite(3,LOW);
+      }
+      if(val == 'd')
+      {
+        digitalWrite(5,LOW);
+      }
+    
+    
+    }
