@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88ffd051-c8e7-4866-9c97-f96f00013c71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bluetooth/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Buzzer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultrasonic-wave-Sensor/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buzzer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Buzzer/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Servo-motor" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eLQPmsZ5e6zFHf2pVvqlCBwFyj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,16 +33,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ultrasonic-wave-Sensor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\ING-Robot\Buzzer\img" />
+      <recent name="C:\Users\User\PycharmProjects\ING-Robot\Buzzer" />
+      <recent name="C:\Users\User\PycharmProjects\ING-Robot\Servo-motor\img" />
+      <recent name="C:\Users\User\PycharmProjects\ING-Robot\Servo-motor\SG90_datasheet" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\PycharmProjects\ING-Robot\ultrasonic-wave-Sensor" />
       <recent name="C:\Users\User\PycharmProjects\ING-Robot\Bluetooth" />
       <recent name="C:\Users\User\PycharmProjects\ING-Robot\Buzzer" />
       <recent name="C:\Users\User\PycharmProjects\ING-Robot\Sound-Sensor" />
       <recent name="C:\Users\User\PycharmProjects\ING-Robot\Servo-motor" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\PycharmProjects\ING-Robot\Servo-motor\img" />
-      <recent name="C:\Users\User\PycharmProjects\ING-Robot\Servo-motor\SG90_datasheet" />
     </key>
   </component>
   <component name="SvnConfiguration">
