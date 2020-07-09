@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88ffd051-c8e7-4866-9c97-f96f00013c71" name="Default Changelist" comment="" />
+    <list default="true" id="88ffd051-c8e7-4866-9c97-f96f00013c71" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Sound-Sensor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Sound-Sensor/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594271087137</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="eeeee ing">
+      <created>1594271303015</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594271303015</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,16 +115,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1594186801008" />
-    <state x="384" y="0" key="CommitChangelistDialog2" timestamp="1594271086036">
+    <state x="384" y="0" key="CommitChangelistDialog2" timestamp="1594271301404">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="384" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594188638926" />
-    <state x="384" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1594271086036" />
-    <state x="361" y="152" key="Vcs.Push.Dialog.v2" timestamp="1594271131400">
+    <state x="384" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1594271301404" />
+    <state x="199" y="103" width="814" height="558" key="Vcs.Push.Dialog.v2" timestamp="1594271638131">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594188647745" />
-    <state x="361" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594271131400" />
+    <state x="199" y="103" width="814" height="558" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594271638131" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1594212626552">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
