@@ -24,5 +24,33 @@ http://www.micro4you.com/files/ElecFreaks/Bluetooth%20HC-06.pdf
 　  
 우리가 블루투스를 통해 원격으로 조종할 때 가장 쉬운 방법은 무엇일까? 노트북은 무겁고 다른 장치를 쓰려면 또 새로운 것을 공부해야한다. 우리는 어플을 사용해보자  
 먼저 Google play 스토어에서 'Arduino Bluetooth Controller'라는 이름을 가진 어플리케이션을 다운로드 및 설치하자  
-![kaka01](img/kakao1.jpg) = 100x20) {: width="50%" height="50%"}  
-<img src="img/kako1.jpg>
+　  
+![kaka01](img/kakao1.jpg)  
+　 
+<Arduino Bluetooth Controller>  
+　  
+![kaka02](img/kakao2.jpg)  
+　  
+<1번 터치하여 스마트폰 주변 블루투스 장치 검색>  
+　  
+![kaka03](img/kakao3.jpg)  
+　  
+<발견한 블루투스 장치를 찾아 클릭>  
+　  
+![kaka04](img/kakao4.jpg)  
+　  
+<초기 Pin번호는 1234 또는 0000으로 구성 되져있다.>
+  
+![kaka05](img/kakao5.jpg)  
+　  
+<Terminal Mode를 선택하여 스마트폰과 블루투스 모듈간 문자 송수신을 하자.>  
+　  
+![kaka06](img/kakao6.jpg)   
+　  
+<어플에서 문자를 입력하면 시리얼 모니터에 출력되고 시리얼 모니터에 입력하면 어플에 출력된다.>  
+　  
+이렇게 어플다운까지 끝나고 실험으로 들어가겠다.  
+
+
+![blue_tooth](img/blue_tooth_circuit.PNG)  
+　
