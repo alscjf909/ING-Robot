@@ -24,4 +24,5 @@ http://www.micro4you.com/files/ElecFreaks/Bluetooth%20HC-06.pdf
 　  
 우리가 블루투스를 통해 원격으로 조종할 때 가장 쉬운 방법은 무엇일까? 노트북은 무겁고 다른 장치를 쓰려면 또 새로운 것을 공부해야한다. 우리는 어플을 사용해보자  
 먼저 Google play 스토어에서 'Arduino Bluetooth Controller'라는 이름을 가진 어플리케이션을 다운로드 및 설치하자  
-![kaka01](img/kakao1.jpg)
+![kaka01](img/kakao1.jpg) = 100x20) {: width="50%" height="50%"}  
+<img src="img/kako1.jpg>
