@@ -68,7 +68,7 @@ http://www.micro4you.com/files/ElecFreaks/Bluetooth%20HC-06.pdf
 　  
 소스 코드
 ***  
-1. Arduino와 블루투스 모듈간 문자를 통신해보자  
+1.Arduino와 블루투스 모듈간 문자를 통신해보자  
        
        
     #include <SoftwareSerial.h>
