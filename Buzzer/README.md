@@ -78,6 +78,71 @@ level에는 내고 싶은 음을 time에는 음정 지속시간을 생각해 적
 　  
 2.부저 센서를 통해 학교 종이 땡땡땡 노래 만들기 
 
+    int buzzer = 9;
+    int pause = 325;
+    void setup(){
+      pinMode(buzzer, OUTPUT);
+    }
+    
+    void loop(){
+      tone(buzzer, 392 ,250);
+      delay(pause);
+      tone(buzzer, 392 ,250);
+      delay(pause);
+      tone(buzzer, 440 ,250);
+      delay(pause);
+      tone(buzzer, 440 ,250);
+      delay(pause);
+      tone(buzzer, 392 ,250);
+      delay(pause);
+      tone(buzzer, 392 ,250);
+      delay(pause);
+      tone(buzzer, 330 ,550);
+      delay(pause);
+      tone(buzzer, 392 ,250);
+      delay(pause);
+      tone(buzzer, 392 ,250);
+      delay(pause);
+      tone(buzzer, 330 ,250);
+      delay(pause);
+      tone(buzzer, 330 ,250);
+      delay(pause);
+      tone(buzzer, 293 ,750);
+      delay(pause);
+      noTone(buzzer)
+      delay(pause);
+      tone(buzzer, 392 ,250);
+      delay(pause);
+      tone(buzzer, 392 ,250);
+      delay(pause);
+      tone(buzzer, 440 ,250);
+      delay(pause);
+      tone(buzzer, 440 ,250);
+      delay(pause);
+      tone(buzzer, 392 ,250);
+      delay(pause);
+      tone(buzzer, 392 ,250);
+      delay(pause);
+      tone(buzzer, 329 ,500);
+      delay(pause);
+      tone(buzzer, 392 ,250);
+      delay(pause);
+      tone(buzzer, 329 ,250);
+      delay(pause);
+      tone(buzzer, 293 ,250);
+      delay(pause);
+      tone(buzzer, 329 ,250);
+      delay(pause);
+      tone(buzzer, 261 ,750);
+      delay(pause);
+      noTone(buzzer)
+      delay(puase);
+      
+    }
+    void loop({
+    }
+    }
+
   
   
 3.자신만의 노래 만들기 (캐리비안 해적)
