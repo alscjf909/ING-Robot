@@ -76,15 +76,19 @@ level에는 내고 싶은 음을 time에는 음정 지속시간을 생각해 적
        delay(500);
     } 
 　  
-2.부저 센서를 통해 학교 종이 땡땡땡 노래 만들기  
+2.부저 센서를 통해 학교 종이 땡땡땡 노래 만들기 
+
+  
+  
+3.자신만의 노래 만들기 (캐리비안 해적)
 　  
 
-    const int buzzer = 9; //Define pin 10, can use other PWM pins  (5,6 or 9)핀을 다른 PWM pin으로도 사용 할 수 있지만 
+    const int buzzer = 9; //핀을 다른 PWM pin으로도 사용 할 수 있지만 
                         //3 또는 11번은 tone 함수를 받을 수 없다. 
                        
     const int songspeed = 1.5; //값을 2로 바꾸면 조금더 느린 버전으로 노래를 할 수 있다.
     //*****************************************
-    #define NOTE_C4  262    //Defining note frequency
+    #define NOTE_C4  262    
     #define NOTE_D4  294    //이렇게 Define하는 이유는 int나 float long double등으로 변수를 생성 할시
     #define NOTE_E4  330    //메모리에 데이터가 저장되므로 데이터가 쓰인다. 하지만 Define은 뒤에 ';'가 붙지 않는다.
     #define NOTE_F4  349    //상수는 메모리를 차지하지 않는다.
@@ -99,7 +103,7 @@ level에는 내고 싶은 음을 time에는 음정 지속시간을 생각해 적
     #define NOTE_A5  880
     #define NOTE_B5  988
     //*****************************************
-    int notes[] = {       //Note of the song, 0 is a rest/pulse
+    int notes[] = {       0은 reset하기 위한 것이다.
        NOTE_E4, NOTE_G4, NOTE_A4, NOTE_A4, 0, 
        NOTE_A4, NOTE_B4, NOTE_C5, NOTE_C5, 0, 
        NOTE_C5, NOTE_D5, NOTE_B4, NOTE_B4, 0,
@@ -153,7 +157,7 @@ level에는 내고 싶은 음을 time에는 음정 지속시간을 생각해 적
        NOTE_B4, NOTE_C5, 0, NOTE_B4, 0, NOTE_A4
     };
     //*****************************************
-    int duration[] = {         //duration of each note (in ms) Quarter Note is set to 250 ms
+    int duration[] = {        
       125, 125, 250, 125, 125, 
       125, 125, 250, 125, 125,
       125, 125, 250, 125, 125,
@@ -175,7 +179,6 @@ level에는 내고 싶은 음을 time에는 음정 지속시간을 생각해 적
       125, 125, 375, 375,
     
       250, 125,
-      //Rpeat of First Part
       125, 125, 250, 125, 125,
       125, 125, 250, 125, 125,
       125, 125, 375, 125, 
@@ -194,7 +197,7 @@ level에는 내고 싶은 음을 time에는 음정 지속시간을 생각해 적
       250, 125, 250, 125, 
       125, 125, 250, 125, 125,
       125, 125, 375, 375,
-      //End of Repeat
+
       
       250, 125, 375, 250, 125, 375,
       125, 125, 125, 125, 125, 125, 125, 125, 375,
@@ -208,11 +211,10 @@ level에는 내고 싶은 음을 time에는 음정 지속시간을 생각해 적
     };
     
     void setup() {
-      for (int i=0;i<203;i++){              //203 is the total number of music notes in the song
+      for (int i=0;i<203;i++){              //총 노드 수는 203개다.
       int wait = duration[i] * songspeed;
-      tone(buzzer,notes[i],wait);          //tone(pin,frequency,duration)
-      delay(wait);}                        //delay is used so it doesn't go to the next loop before tone is finished playing
-
+      tone(buzzer,notes[i],wait);          
+      delay(wait);}                        //
     }
     
     void loop() {

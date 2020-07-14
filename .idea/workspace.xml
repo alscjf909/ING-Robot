@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88ffd051-c8e7-4866-9c97-f96f00013c71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Buzzer/arduino_buuzer_school/arduino_buzzer_school/arduino_buzzer_school.ino" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bluetooth/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Bluetooth/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buzzer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Buzzer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buzzer/arduino_buzzer_pirates/arduino_buzzer_pirates.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Buzzer/arduino_buzzer_pirates/arduino_buzzer_pirates.ino" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594701580300</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="eeeee ing">
+      <created>1594701689443</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1594701689443</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,20 +229,20 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1594186801008" />
-    <state x="384" y="0" key="CommitChangelistDialog2" timestamp="1594701579312">
+    <state x="384" y="0" key="CommitChangelistDialog2" timestamp="1594701688590">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="384" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594188638926" />
-    <state x="384" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1594701579312" />
+    <state x="384" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1594701688590" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1594700730398">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1594700730398" />
-    <state x="199" y="103" width="814" height="558" key="Vcs.Push.Dialog.v2" timestamp="1594701586200">
+    <state x="199" y="103" width="814" height="558" key="Vcs.Push.Dialog.v2" timestamp="1594701693607">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594188647745" />
-    <state x="199" y="103" width="814" height="558" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594701586200" />
+    <state x="199" y="103" width="814" height="558" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594701693607" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1594212626552">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
