@@ -10,4 +10,4 @@
 3. [(블루투스 통신)](https://github.com/alscjf909/ING-Robot/tree/master/Bluetooth)
 4. [학교종이 땡땡땡 어서모이자~(부저)](https://github.com/alscjf909/ING-Robot/tree/master/Buzzer)
 5. [에너르기파(초음파 센서)](https://github.com/alscjf909/ING-Robot/tree/master/ultrasonic-wave-Sensor)
-6. [3D 프린팅하기(대구)](https://www.3dprinter.or.kr/page/main/main.php)
+6. [3D 프린팅하기(대구)](https://github.com/alscjf909/ING-Robot/tree/master/3d_printing/3Dprint)
