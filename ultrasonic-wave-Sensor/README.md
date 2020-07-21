@@ -27,7 +27,15 @@ high신호를 보내고 echo에서 신호를 받으면 LOW가 되게 하여 거�
       digitalWrite(trigPin, LOW);
 이 코드를 보면 사이에 delayMicroseconds(10);이 들어간것을 확인 할 수 있다.
 TRIG에서 신호를 보내고 ECHO에서 신호를 받아 들이는 대까지 
-중간에 10mmsec 밑으로 delay가 없으면 데이터를 ECHO에서 받아 들일 수가 없다.  
+중간에 10mmsec 밑으로 delay가 없으면 데이터를 ECHO에서 받아 들일 수가 없다. 그리고 소스에
+    
+        distance = ((float)(340*duration) / 1000)/2;
+이렇게 함수를 쓴 이유로 음파의 속도가 1초당 340m를 갈 수 있으므로 속도는 340m/s으로 생각하고
+340*10^6 mm/sec 이므로 신호를 보냈을 때 돌아 오기 까지의  
+ 시간을 측정하여 거리를 구하면
+시간 * 17 / 1000공식이 나온다.
+　  
+
 실험내용
 ***  
 사물과 센서와의 거리 측정에 따른 LED 점등  
@@ -37,4 +45,49 @@ TRIG에서 신호를 보내고 ECHO에서 신호를 받아 들이는 대까지
 ***
 아누이노 우노, 브레드 보드, 점퍼선, LED, 저항, HC-SR04  
 　  
-![보드](img/board.PNG)
+![보드](img/board.PNG)  
+　  
+소스 코드
+***  
+
+    
+    int echo = 7;
+    int trig = 6;
+    int led[6]= {8, 9, 10, 11, 12, 13};
+    
+    void setup()
+    {
+      Serial.begin(9600);
+      pinMode(trig, OUTPUT);
+      pinMode(echo, INPUT);
+      for(int i=0; i<6; i++)
+        pinMode(led[i], OUTPUT);
+    }
+    
+    void loop()
+    {
+      long duration, distance;
+      digitalWrite(trig, HIGH);
+      delayMicroseconds(10);
+      digitalWrite(trig, LOW);
+      duration = pulseIn(echo, HIGH);
+      distance = ((float)(17*duration) / 1000)/2;
+      Serial.print(distance);
+      Serial.println(" cm");
+    
+      if(distance < 10)
+        digitalWrite(led[0],HIGH);
+      else if(distance<15)
+        digitalWrite(led[1],HIGH);
+      else if(distance<20)
+        digitalWrite(led[2],HIGH);
+      else if(distance<25)
+        digitalWrite(led[3],HIGH);
+      else if(distance<30)
+        digitalWrite(led[4],HIGH);
+      else if(distance<35)
+        digitalWrite(led[5],HIGH);
+      else
+        digitalWrite(led,LOW);
+      delay(500);
+    }
