@@ -40,7 +40,7 @@
 ***
 1. 아날로그 센서를 통한 dB측정(시리얼 플로터 사용하기)  
 
-    
+　
     
     int SoundSensor = A0;     // 사운드 센서 설정
     void setup() {               
