@@ -32,9 +32,9 @@
 아누이노 우노, 브레드 보드, 점퍼선, LED, 저항, 디지털 사운드 센서  
 1. 아날로그 센서를 통한 dB측정(시리얼 플로터 사용하기)    
   
-　  
+![Sound Bread](img/sound_bread.PNG)　  
 2. 디지털 사운드 센서를 통한 박수 횟수에 따라 LED켜지기
-![Sound Bread](img/sound_bread2.PNG)   
+![Sound Bread](img/Sound_bread2.PNG)   
 　  
 소스코드  
 ***
