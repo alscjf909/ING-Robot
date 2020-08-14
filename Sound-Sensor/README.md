@@ -57,9 +57,9 @@
 
 
 <div class ="embed-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/QO9K61NkzuA" frameborder="0" allowfullscreen="" onclick="ga('send', 'event', 'post', 'click', 'youtubePlayer');"></iframe>
 </div>
-{% include }  
+
 
 2.디지털 사운드 센서를 통한 박수 횟수에 따라 LED켜지기  
 
