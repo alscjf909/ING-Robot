@@ -90,7 +90,7 @@ http://www.micro4you.com/files/ElecFreaks/Bluetooth%20HC-06.pdf
         bluetooth.write(Serial.read());
       }
     }
-
+[![ㅜ](http://img.youtube.com/vi/vkFoeIQtwXA/0.jpg)](https://www.youtube.com/watch?v=vkFoeIQtwXA)
 
 2.Arduino를 통해 LED키고 끄기  
 
@@ -134,3 +134,5 @@ http://www.micro4you.com/files/ElecFreaks/Bluetooth%20HC-06.pdf
     
     
     }
+
+[![ㅜ](http://img.youtube.com/vi/XQpttyAi5gE/0.jpg)](https://www.youtube.com/watch?v=XQpttyAi5gE)
