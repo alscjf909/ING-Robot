@@ -53,7 +53,8 @@
       Serial.println(level);
       delay(300);
     }
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='http://www.youtube.com/embed/EkzEocB56YA' frameborder='0' allowfullscreen></iframe></div>
+    </div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
 {% include }
 2.디지털 사운드 센서를 통한 박수 횟수에 따라 LED켜지기  
 
