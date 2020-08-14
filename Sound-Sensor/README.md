@@ -56,7 +56,7 @@
 
 
 
-<iframe width="1115" height="628" src="https://www.youtube.com/embed/EkzEocB56YA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/EkzEocB56YA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 2.디지털 사운드 센서를 통한 박수 횟수에 따라 LED켜지기  
